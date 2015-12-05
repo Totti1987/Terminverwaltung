@@ -11,12 +11,12 @@ using System.Data.OleDb;
 using System.Data.Sql;
 using System.IO;
 
-namespace CTerminverwaltung
+namespace Terminverwaltung
 {
     public partial class Kontaktdaten : Form
     {
 
-        string verbindungsstring = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=C:\\Users\\Olivia88\\Documents\\Visual Studio 2013\\Projects\\CTerminverwaltung\\CTerminverwaltung\\Terminverwaltung.accdb";
+        string verbindungsstring = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=C:\\Temp\\Terminverwaltung.accdb";
         //string verbindungsstring = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=C:\\Users\\tloebenstein\\Documents\\Visual Studio 2013\\Projects\\CTerminverwaltung\\CTerminverwaltung\\Terminverwaltung.accdb";
         System.Data.OleDb.OleDbConnection dBVerbindung = null;
         System.Data.OleDb.OleDbCommand befehl = null;
@@ -35,7 +35,7 @@ namespace CTerminverwaltung
         private void Kontaktdaten_Load(object sender, EventArgs e)
         {
             // TODO: Diese Codezeile lädt Daten in die Tabelle "terminverwaltungDataSet.Kontakte". Sie können sie bei Bedarf verschieben oder entfernen.
-            this.kontakteTableAdapter.Fill(this.terminverwaltungDataSet.Kontakte);
+            //this.kontakteTableAdapter.Fill(this.terminverwaltungDataSet.Kontakte);
 
         }
 
@@ -88,10 +88,10 @@ namespace CTerminverwaltung
                     dBVerbindung.Open();
                     offen = true;
                     befehl = dBVerbindung.CreateCommand();
-                    befehl.CommandText = "insert into Kontakte (name, vorname, adresse, telefon, email, bild)  values('" + this.Name.Text + "', '" + this.Vorname.Text + "', '" + this.Adresse.Text + "', '" + this.Telefon.Text + "','" + this.Email.Text + "','" +  this.Bild.Image + ");";
+                    befehl.CommandText = "insert into Kontakte (name, vorname, adresse, telefon, email, bild)  values('" + this.Name.Text + "', '" + this.Vorname.Text + "', '" + this.Adresse.Text + "', '" + this.Telefon.Text + "','" + this.Email.Text + "','" + this.Bild.Image + ");";
                     anzahl = befehl.ExecuteNonQuery();
                     //Übersicht neu anzeigen 
-                    this.kontakteTableAdapter.Fill(this.terminverwaltungDataSet.Kontakte);
+                    //this.kontakteTableAdapter.Fill(this.terminverwaltungDataSet.Kontakte);
                     befehl.CommandText = "select * from Kontakte;";
                     datenleser = befehl.ExecuteReader();
                     int row = 0;
@@ -125,10 +125,10 @@ namespace CTerminverwaltung
                     dBVerbindung.Open();
                     offen = true;
                     befehl = dBVerbindung.CreateCommand();
-                    befehl.CommandText = "Update Kontakte set name = '" + this.Name.Text + "',vorname = '" + this.Vorname.Text + "', adresse = '" + this.Adresse.Text + "' , telefon = '" + this.Telefon.Text + "', email = '" + this.Email.Text + "', bild= '" + this.Bild.Image + "' where kontakt_id = " + kontakt_id +" ;" ;
+                    befehl.CommandText = "Update Kontakte set name = '" + this.Name.Text + "',vorname = '" + this.Vorname.Text + "', adresse = '" + this.Adresse.Text + "' , telefon = '" + this.Telefon.Text + "', email = '" + this.Email.Text + "', bild= '" + this.Bild.Image + "' where kontakt_id = " + kontakt_id + " ;";
                     anzahl = befehl.ExecuteNonQuery();
                     //Übersicht neu anzeigen 
-                    this.kontakteTableAdapter.Fill(this.terminverwaltungDataSet.Kontakte);
+                    //this.kontakteTableAdapter.Fill(this.terminverwaltungDataSet.Kontakte);
                     befehl.CommandText = "select * from Kontakte;";
                     datenleser = befehl.ExecuteReader();
                     int row = 0;
@@ -146,7 +146,7 @@ namespace CTerminverwaltung
                 }
                 catch (Exception ausnahme)
                 {
-                    MessageBox.Show("Datenbankfehler: " + ausnahme.Message); 
+                    MessageBox.Show("Datenbankfehler: " + ausnahme.Message);
                 }
                 finally
                 {
@@ -164,7 +164,7 @@ namespace CTerminverwaltung
             openBild.Filter = "jpg files (*.jpg)|*.jpg|png files (*.png)|*.png";
             openBild.FilterIndex = 2;
             openBild.RestoreDirectory = true;
-            openBild.FileName = ""; 
+            openBild.FileName = "";
 
             if (openBild.ShowDialog() == DialogResult.OK)
             {
@@ -182,7 +182,7 @@ namespace CTerminverwaltung
 
                     // Neues Vorgabeverzeichnis fürs Öffnen
                     openBild.InitialDirectory = System.IO.Path.GetDirectoryName(fileName);
-          
+
                 }
                 catch (Exception ex)
                 {

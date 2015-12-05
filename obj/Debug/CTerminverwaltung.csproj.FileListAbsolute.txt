@@ -20,3 +20,6 @@ C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\CTerminverwaltung\CTermi
 C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\CTerminverwaltung\CTerminverwaltung\obj\Debug\CTerminverwaltung.Terminverwaltung.resources
 C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\CTerminverwaltung\CTerminverwaltung\obj\Debug\CTerminverwaltung.Properties.Resources.resources
 C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\CTerminverwaltung\CTerminverwaltung\obj\Debug\CTerminverwaltung.csproj.GenerateResource.Cache
+C:\Users\André\Documents\GitHub\Terminverwaltung\bin\Debug\CTerminverwaltung.exe.config
+C:\Users\André\Documents\GitHub\Terminverwaltung\obj\Debug\CTerminverwaltung.exe
+C:\Users\André\Documents\GitHub\Terminverwaltung\obj\Debug\CTerminverwaltung.pdb

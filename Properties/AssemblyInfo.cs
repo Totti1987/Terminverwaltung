@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("CTerminverwaltung")]
+[assembly: AssemblyTitle("Terminverwaltung")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Kreisverwaltung Mettmann")]
-[assembly: AssemblyProduct("CTerminverwaltung")]
+[assembly: AssemblyProduct("Terminverwaltung")]
 [assembly: AssemblyCopyright("Copyright © Kreisverwaltung Mettmann 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("639ce1e1-ca21-4cc4-844f-c4f44fb6683e")]
+[assembly: Guid("60c30c0a-6d58-4d0c-b760-035a8cf0ec5e")]
 
 // Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 //

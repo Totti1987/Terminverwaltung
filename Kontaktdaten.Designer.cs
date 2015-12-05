@@ -1,4 +1,4 @@
-﻿namespace CTerminverwaltung
+﻿namespace Terminverwaltung
 {
     partial class Kontaktdaten
     {
@@ -50,13 +50,13 @@
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bildDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kontakteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.terminverwaltungDataSet = new CTerminverwaltung.TerminverwaltungDataSet();
-            this.kontakteTableAdapter = new CTerminverwaltung.TerminverwaltungDataSetTableAdapters.KontakteTableAdapter();
+            //this.terminverwaltungDataSet = new CTerminverwaltung.TerminverwaltungDataSet();
+            //this.kontakteTableAdapter = new CTerminverwaltung.TerminverwaltungDataSetTableAdapters.KontakteTableAdapter();
             this.Speichern = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Bild)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKontakte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kontakteBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.terminverwaltungDataSet)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.terminverwaltungDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // Name
@@ -244,16 +244,16 @@
             // kontakteBindingSource
             // 
             this.kontakteBindingSource.DataMember = "Kontakte";
-            this.kontakteBindingSource.DataSource = this.terminverwaltungDataSet;
+            //this.kontakteBindingSource.DataSource = this.terminverwaltungDataSet;
             // 
             // terminverwaltungDataSet
             // 
-            this.terminverwaltungDataSet.DataSetName = "TerminverwaltungDataSet";
-            this.terminverwaltungDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            //this.terminverwaltungDataSet.DataSetName = "TerminverwaltungDataSet";
+            //this.terminverwaltungDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // kontakteTableAdapter
             // 
-            this.kontakteTableAdapter.ClearBeforeFill = true;
+            //this.kontakteTableAdapter.ClearBeforeFill = true;
             // 
             // Speichern
             // 
@@ -284,13 +284,13 @@
             this.Controls.Add(this.Adresse);
             this.Controls.Add(this.Vorname);
             this.Controls.Add(this.Name);
-           // this.Name = "Kontaktdaten";
+            // this.Name = "Kontaktdaten";
             this.Text = "Kontaktdaten";
             this.Load += new System.EventHandler(this.Kontaktdaten_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Bild)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKontakte)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kontakteBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.terminverwaltungDataSet)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.terminverwaltungDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -311,9 +311,9 @@
         private System.Windows.Forms.Label label_Email;
         private System.Windows.Forms.Label label_Bild;
         private System.Windows.Forms.DataGridView dataGridViewKontakte;
-        private TerminverwaltungDataSet terminverwaltungDataSet;
+        //private TerminverwaltungDataSet terminverwaltungDataSet;
         private System.Windows.Forms.BindingSource kontakteBindingSource;
-        private TerminverwaltungDataSetTableAdapters.KontakteTableAdapter kontakteTableAdapter;
+        //private TerminverwaltungDataSetTableAdapters.KontakteTableAdapter kontakteTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn kontaktidDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn vornameDataGridViewTextBoxColumn;

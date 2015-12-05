@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CTerminverwaltung
+namespace Terminverwaltung
 {
     public partial class Terminverwaltung : Form
     {
@@ -19,9 +19,9 @@ namespace CTerminverwaltung
 
         private void Kontaktdaten_Click(object sender, EventArgs e)
         {
-           Form frm = new Kontaktdaten();
-           frm.Show();
-           Kontaktdaten.Enabled = false;
+            Form frm = new Kontaktdaten();
+            frm.Show();
+            Kontaktdaten.Enabled = false;
         }
 
 

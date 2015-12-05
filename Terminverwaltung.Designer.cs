@@ -1,4 +1,4 @@
-﻿namespace CTerminverwaltung
+﻿namespace Terminverwaltung
 {
     partial class Terminverwaltung
     {
@@ -91,4 +91,3 @@
         private System.Windows.Forms.Button Ende;
     }
 }
-

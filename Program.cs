@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CTerminverwaltung
+namespace Terminverwaltung
 {
     static class Program
     {
@@ -17,7 +17,6 @@ namespace CTerminverwaltung
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Terminverwaltung());
-
         }
     }
 }
