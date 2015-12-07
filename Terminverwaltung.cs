@@ -17,19 +17,55 @@ namespace Terminverwaltung
             InitializeComponent();
         }
 
+
         private void Kontaktdaten_Click(object sender, EventArgs e)
         {
-            Form frm = new Kontaktdaten();
-            frm.Show();
-            Kontaktdaten.Enabled = false;
+            bool alreadyOpen = false;
+            FormCollection fc = Application.OpenForms;
+
+            foreach (Form forms in fc)
+            {
+                if (forms.Text == "Kontaktdaten")
+                {
+                    alreadyOpen = true;
+                }
+            }
+
+            if (alreadyOpen == false)
+            {
+                Form frm = new Kontaktdaten();
+                frm.Show();
+            }
+            else
+            {
+               MessageBox.Show("Die Kontaktdatenverwaltung ist bereits geöffnet!");
+            }
         }
 
 
         private void Terminansicht_Click(object sender, EventArgs e)
         {
+            bool alreadyOpen = false;
+            FormCollection fc = Application.OpenForms;
 
+            foreach (Form forms in fc)
+            {
+                if (forms.Text == "Terminansicht")
+                {
+                    alreadyOpen = true;
+                }
+            }
+
+            if (alreadyOpen == false)
+            {
+                Form frm = new Terminansicht();
+                frm.Show();
+            }
+            else
+            {
+               MessageBox.Show("Die Terminbearbeitung ist bereits geöffnet!");
+            }
         }
-
         private void Ende_Click(object sender, EventArgs e)
         {
             Close();
