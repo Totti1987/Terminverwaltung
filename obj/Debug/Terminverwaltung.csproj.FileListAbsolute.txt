@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\bin\Debug\Terminverwaltung.exe.config
 c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\bin\Debug\Terminverwaltung.exe
 c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\bin\Debug\Terminverwaltung.pdb
@@ -40,45 +39,3 @@ C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj
 C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.csproj.GenerateResource.Cache
 C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Kontaktdaten.resources
 C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Kontaktdaten.resources
-=======
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\bin\Debug\Terminverwaltung.exe.config
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\bin\Debug\Terminverwaltung.exe
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\bin\Debug\Terminverwaltung.pdb
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\obj\Debug\Terminverwaltung.csprojResolveAssemblyReference.cache
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\obj\Debug\Terminverwaltung.Terminansicht.resources
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\obj\Debug\Terminverwaltung.Properties.Resources.resources
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\obj\Debug\Terminverwaltung.csproj.GenerateResource.Cache
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\obj\Debug\Terminverwaltung.exe
-c:\users\apaulin\documents\visual studio 2013\Projects\Terminverwaltung\Terminverwaltung\obj\Debug\Terminverwaltung.pdb
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.exe.config
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.exe
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.pdb
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.csprojResolveAssemblyReference.cache
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Terminansicht.resources
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Properties.Resources.resources
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.csproj.GenerateResource.Cache
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.exe
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.pdb
-C:\Users\André\Documents\Visual Studio 2015\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Terminbearbeitung.resources
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.exe.config
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.exe
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.pdb
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.exe
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.pdb
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.csprojResolveAssemblyReference.cache
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Terminansicht.resources
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Properties.Resources.resources
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Terminbearbeitung.resources
-C:\Users\Olivia88\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.csproj.GenerateResource.Cache
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.exe.config
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.exe
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.pdb
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.exe
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\bin\Debug\Terminverwaltung.pdb
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.csprojResolveAssemblyReference.cache
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Terminansicht.resources
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Properties.Resources.resources
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Terminbearbeitung.resources
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.csproj.GenerateResource.Cache
-C:\Users\tloebenstein\Documents\Visual Studio 2013\Projects\Terminverwaltung\obj\Debug\Terminverwaltung.Kontaktdaten.resources
->>>>>>> origin/master
