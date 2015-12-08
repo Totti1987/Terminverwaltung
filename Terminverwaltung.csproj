@@ -70,6 +70,9 @@
     <Compile Include="Terminverwaltung.Designer.cs">
       <DependentUpon>Terminverwaltung.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Kontaktdaten.resx">
+      <DependentUpon>Kontaktdaten.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Terminansicht.resx">
       <DependentUpon>Terminansicht.cs</DependentUpon>
     </EmbeddedResource>

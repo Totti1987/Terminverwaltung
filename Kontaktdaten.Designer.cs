@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.Name = new System.Windows.Forms.TextBox();
+            this.Zuname = new System.Windows.Forms.TextBox();
             this.Vorname = new System.Windows.Forms.TextBox();
             this.Adresse = new System.Windows.Forms.TextBox();
             this.Telefon = new System.Windows.Forms.TextBox();
@@ -41,30 +40,25 @@
             this.label_Telefon = new System.Windows.Forms.Label();
             this.label_Email = new System.Windows.Forms.Label();
             this.label_Bild = new System.Windows.Forms.Label();
-            this.dataGridViewKontakte = new System.Windows.Forms.DataGridView();
-            this.kontaktidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vornameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.adresseDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bildDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kontakteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            //this.terminverwaltungDataSet = new CTerminverwaltung.TerminverwaltungDataSet();
-            //this.kontakteTableAdapter = new CTerminverwaltung.TerminverwaltungDataSetTableAdapters.KontakteTableAdapter();
             this.Speichern = new System.Windows.Forms.Button();
+            this.dataGridViewKontakte = new System.Windows.Forms.DataGridView();
+            this.Neu = new System.Windows.Forms.Button();
+            this.KontaktID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Name_Col = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Vorname_Col = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Adresse_Col = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefon_Col = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EMAIL_COl = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.Bild)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKontakte)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kontakteBindingSource)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.terminverwaltungDataSet)).BeginInit();
             this.SuspendLayout();
             // 
-            // Name
+            // Zuname
             // 
-            this.Name.Location = new System.Drawing.Point(102, 246);
-            this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(176, 20);
-            this.Name.TabIndex = 0;
+            this.Zuname.Location = new System.Drawing.Point(102, 246);
+            this.Zuname.Name = "Zuname";
+            this.Zuname.Size = new System.Drawing.Size(176, 20);
+            this.Zuname.TabIndex = 0;
             // 
             // Vorname
             // 
@@ -100,7 +94,7 @@
             this.Bild.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Bild.Location = new System.Drawing.Point(476, 305);
             this.Bild.Name = "Bild";
-            this.Bild.Size = new System.Drawing.Size(216, 137);
+            this.Bild.Size = new System.Drawing.Size(118, 158);
             this.Bild.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Bild.TabIndex = 5;
             this.Bild.TabStop = false;
@@ -166,98 +160,9 @@
             this.label_Bild.TabIndex = 11;
             this.label_Bild.Text = "Bild";
             // 
-            // dataGridViewKontakte
-            // 
-            this.dataGridViewKontakte.AllowUserToAddRows = false;
-            this.dataGridViewKontakte.AllowUserToDeleteRows = false;
-            this.dataGridViewKontakte.AutoGenerateColumns = false;
-            this.dataGridViewKontakte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewKontakte.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.kontaktidDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.vornameDataGridViewTextBoxColumn,
-            this.adresseDataGridViewTextBoxColumn,
-            this.telefonDataGridViewTextBoxColumn,
-            this.emailDataGridViewTextBoxColumn,
-            this.bildDataGridViewTextBoxColumn});
-            this.dataGridViewKontakte.DataSource = this.kontakteBindingSource;
-            this.dataGridViewKontakte.Location = new System.Drawing.Point(12, 25);
-            this.dataGridViewKontakte.Name = "dataGridViewKontakte";
-            this.dataGridViewKontakte.ReadOnly = true;
-            this.dataGridViewKontakte.RowHeadersVisible = false;
-            this.dataGridViewKontakte.Size = new System.Drawing.Size(758, 191);
-            this.dataGridViewKontakte.TabIndex = 12;
-            this.dataGridViewKontakte.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
-            // 
-            // kontaktidDataGridViewTextBoxColumn
-            // 
-            this.kontaktidDataGridViewTextBoxColumn.DataPropertyName = "Kontakt_id";
-            this.kontaktidDataGridViewTextBoxColumn.HeaderText = "Kontakt_id";
-            this.kontaktidDataGridViewTextBoxColumn.Name = "kontaktidDataGridViewTextBoxColumn";
-            this.kontaktidDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // vornameDataGridViewTextBoxColumn
-            // 
-            this.vornameDataGridViewTextBoxColumn.DataPropertyName = "Vorname";
-            this.vornameDataGridViewTextBoxColumn.HeaderText = "Vorname";
-            this.vornameDataGridViewTextBoxColumn.Name = "vornameDataGridViewTextBoxColumn";
-            this.vornameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // adresseDataGridViewTextBoxColumn
-            // 
-            this.adresseDataGridViewTextBoxColumn.DataPropertyName = "Adresse";
-            this.adresseDataGridViewTextBoxColumn.HeaderText = "Adresse";
-            this.adresseDataGridViewTextBoxColumn.Name = "adresseDataGridViewTextBoxColumn";
-            this.adresseDataGridViewTextBoxColumn.ReadOnly = true;
-            this.adresseDataGridViewTextBoxColumn.Width = 200;
-            // 
-            // telefonDataGridViewTextBoxColumn
-            // 
-            this.telefonDataGridViewTextBoxColumn.DataPropertyName = "Telefon";
-            this.telefonDataGridViewTextBoxColumn.HeaderText = "Telefon";
-            this.telefonDataGridViewTextBoxColumn.Name = "telefonDataGridViewTextBoxColumn";
-            this.telefonDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emailDataGridViewTextBoxColumn
-            // 
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            this.emailDataGridViewTextBoxColumn.ReadOnly = true;
-            this.emailDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // bildDataGridViewTextBoxColumn
-            // 
-            this.bildDataGridViewTextBoxColumn.DataPropertyName = "Bild";
-            this.bildDataGridViewTextBoxColumn.HeaderText = "Bild";
-            this.bildDataGridViewTextBoxColumn.Name = "bildDataGridViewTextBoxColumn";
-            this.bildDataGridViewTextBoxColumn.ReadOnly = true;
-            this.bildDataGridViewTextBoxColumn.Width = 5;
-            // 
-            // kontakteBindingSource
-            // 
-            this.kontakteBindingSource.DataMember = "Kontakte";
-            //this.kontakteBindingSource.DataSource = this.terminverwaltungDataSet;
-            // 
-            // terminverwaltungDataSet
-            // 
-            //this.terminverwaltungDataSet.DataSetName = "TerminverwaltungDataSet";
-            //this.terminverwaltungDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // kontakteTableAdapter
-            // 
-            //this.kontakteTableAdapter.ClearBeforeFill = true;
-            // 
             // Speichern
             // 
-            this.Speichern.Location = new System.Drawing.Point(316, 462);
+            this.Speichern.Location = new System.Drawing.Point(349, 484);
             this.Speichern.Name = "Speichern";
             this.Speichern.Size = new System.Drawing.Size(131, 31);
             this.Speichern.TabIndex = 13;
@@ -265,13 +170,87 @@
             this.Speichern.UseVisualStyleBackColor = true;
             this.Speichern.Click += new System.EventHandler(this.Speichern_Click);
             // 
+            // dataGridViewKontakte
+            // 
+            this.dataGridViewKontakte.AllowUserToAddRows = false;
+            this.dataGridViewKontakte.AllowUserToDeleteRows = false;
+            this.dataGridViewKontakte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewKontakte.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.KontaktID,
+            this.Name_Col,
+            this.Vorname_Col,
+            this.Adresse_Col,
+            this.Telefon_Col,
+            this.EMAIL_COl});
+            this.dataGridViewKontakte.Location = new System.Drawing.Point(26, 12);
+            this.dataGridViewKontakte.Name = "dataGridViewKontakte";
+            this.dataGridViewKontakte.ReadOnly = true;
+            this.dataGridViewKontakte.RowHeadersVisible = false;
+            this.dataGridViewKontakte.Size = new System.Drawing.Size(766, 208);
+            this.dataGridViewKontakte.TabIndex = 14;
+            this.dataGridViewKontakte.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewKontakte_CellEnter);
+            // 
+            // Neu
+            // 
+            this.Neu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Neu.Location = new System.Drawing.Point(268, 484);
+            this.Neu.Name = "Neu";
+            this.Neu.Size = new System.Drawing.Size(75, 31);
+            this.Neu.TabIndex = 15;
+            this.Neu.Text = "Neu";
+            this.Neu.UseVisualStyleBackColor = true;
+            this.Neu.Click += new System.EventHandler(this.Neu_Click);
+            // 
+            // KontaktID
+            // 
+            this.KontaktID.HeaderText = "Kontakt ID";
+            this.KontaktID.Name = "KontaktID";
+            this.KontaktID.ReadOnly = true;
+            this.KontaktID.Width = 90;
+            // 
+            // Name_Col
+            // 
+            this.Name_Col.HeaderText = "Name";
+            this.Name_Col.Name = "Name_Col";
+            this.Name_Col.ReadOnly = true;
+            this.Name_Col.Width = 120;
+            // 
+            // Vorname_Col
+            // 
+            this.Vorname_Col.HeaderText = "Vorname";
+            this.Vorname_Col.Name = "Vorname_Col";
+            this.Vorname_Col.ReadOnly = true;
+            this.Vorname_Col.Width = 120;
+            // 
+            // Adresse_Col
+            // 
+            this.Adresse_Col.HeaderText = "Adresse";
+            this.Adresse_Col.Name = "Adresse_Col";
+            this.Adresse_Col.ReadOnly = true;
+            this.Adresse_Col.Width = 180;
+            // 
+            // Telefon_Col
+            // 
+            this.Telefon_Col.HeaderText = "Telefon";
+            this.Telefon_Col.Name = "Telefon_Col";
+            this.Telefon_Col.ReadOnly = true;
+            this.Telefon_Col.Width = 110;
+            // 
+            // EMAIL_COl
+            // 
+            this.EMAIL_COl.HeaderText = "E-Mail";
+            this.EMAIL_COl.Name = "EMAIL_COl";
+            this.EMAIL_COl.ReadOnly = true;
+            this.EMAIL_COl.Width = 140;
+            // 
             // Kontaktdaten
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(815, 537);
-            this.Controls.Add(this.Speichern);
+            this.Controls.Add(this.Neu);
             this.Controls.Add(this.dataGridViewKontakte);
+            this.Controls.Add(this.Speichern);
             this.Controls.Add(this.label_Bild);
             this.Controls.Add(this.label_Email);
             this.Controls.Add(this.label_Telefon);
@@ -283,14 +262,11 @@
             this.Controls.Add(this.Telefon);
             this.Controls.Add(this.Adresse);
             this.Controls.Add(this.Vorname);
-            this.Controls.Add(this.Name);
-            // this.Name = "Kontaktdaten";
+            this.Controls.Add(this.Zuname);
+            this.Name = "Kontaktdaten";
             this.Text = "Kontaktdaten";
-            this.Load += new System.EventHandler(this.Kontaktdaten_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Bild)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKontakte)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kontakteBindingSource)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.terminverwaltungDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -298,7 +274,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Name;
+        private System.Windows.Forms.TextBox Zuname;
         private System.Windows.Forms.TextBox Vorname;
         private System.Windows.Forms.TextBox Adresse;
         private System.Windows.Forms.TextBox Telefon;
@@ -310,17 +286,14 @@
         private System.Windows.Forms.Label label_Telefon;
         private System.Windows.Forms.Label label_Email;
         private System.Windows.Forms.Label label_Bild;
-        private System.Windows.Forms.DataGridView dataGridViewKontakte;
-        //private TerminverwaltungDataSet terminverwaltungDataSet;
-        private System.Windows.Forms.BindingSource kontakteBindingSource;
-        //private TerminverwaltungDataSetTableAdapters.KontakteTableAdapter kontakteTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn kontaktidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn vornameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn adresseDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefonDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bildDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button Speichern;
+        private System.Windows.Forms.DataGridView dataGridViewKontakte;
+        private System.Windows.Forms.Button Neu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KontaktID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Name_Col;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Vorname_Col;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Adresse_Col;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Telefon_Col;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EMAIL_COl;
     }
 }
