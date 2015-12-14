@@ -126,7 +126,7 @@
             this.listBoxKontakt.ItemHeight = 16;
             this.listBoxKontakt.Location = new System.Drawing.Point(244, 224);
             this.listBoxKontakt.Name = "listBoxKontakt";
-            this.listBoxKontakt.Size = new System.Drawing.Size(200, 20);
+            this.listBoxKontakt.Size = new System.Drawing.Size(200, 84);
             this.listBoxKontakt.TabIndex = 25;
             // 
             // labelBeschreibung
